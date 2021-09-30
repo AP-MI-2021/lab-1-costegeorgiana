@@ -2,7 +2,12 @@
 Returneaza true daca n este prim si false daca nu.
 '''
 def is_prime(n):
-  # codul vostru aici
+nr = int( input('Numarul este:'))
+d = 0
+ for i in range(2,nr-1):
+ 	if nr%i==0: d=d + 1;
+ if(d==0): print('Este prim')
+ 	else: print('Nu este prim')
   
   
 '''
