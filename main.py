@@ -6,8 +6,8 @@ nr = int( input('Numarul este:'))
 d = 0
  for i in range(2,nr-1):
  	if nr%i==0: d=d + 1;
- if(d==0): print('Este prim')
- 	else: print('Nu este prim')
+ if(d==0): print('Numarul este prim')
+ 	else: print('Numarul nu este prim')
   
   
 '''
